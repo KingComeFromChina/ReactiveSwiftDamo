@@ -1,0 +1,29 @@
+PODS:
+  - ReactiveCocoa (5.0.1):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.0):
+    - Result (~> 3.1)
+  - Result (3.2.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - ReactiveCocoa
+  - SDCycleScrollView
+  - SnapKit
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: f577006aa6c7b0b08020109ebaae3b77ada00adc
+  ReactiveSwift: 2f4e4a02e5a5c87ea63f5fe667163ce2a67cbb57
+  Result: 5a6705171c0613cc5fbf6ec55ff520cc62a8e81d
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 490dfdac32fe2e199dd95c49b6eac69ada004884
+
+COCOAPODS: 1.2.0

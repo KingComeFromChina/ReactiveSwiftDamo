@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D00F96D9C4AA040ECC1C83D /* Pods_ReactiveSwiftDamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C305D638369DEBF1288DC /* Pods_ReactiveSwiftDamo.framework */; };
+		9B69A0CE1E723BEC006D33BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A0CD1E723BEC006D33BD /* AppDelegate.swift */; };
+		9B69A0D01E723BEC006D33BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A0CF1E723BEC006D33BD /* ViewController.swift */; };
+		9B69A0D31E723BEC006D33BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B69A0D11E723BEC006D33BD /* Main.storyboard */; };
+		9B69A0D51E723BEC006D33BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B69A0D41E723BEC006D33BD /* Assets.xcassets */; };
+		9B69A0D81E723BEC006D33BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B69A0D61E723BEC006D33BD /* LaunchScreen.storyboard */; };
+		9B69A0E31E723BEC006D33BD /* ReactiveSwiftDamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A0E21E723BEC006D33BD /* ReactiveSwiftDamoTests.swift */; };
+		9B69A0EE1E723BEC006D33BD /* ReactiveSwiftDamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A0ED1E723BEC006D33BD /* ReactiveSwiftDamoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B69A0DF1E723BEC006D33BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B69A0C21E723BEC006D33BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B69A0C91E723BEC006D33BD;
+			remoteInfo = ReactiveSwiftDamo;
+		};
+		9B69A0EA1E723BEC006D33BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B69A0C21E723BEC006D33BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B69A0C91E723BEC006D33BD;
+			remoteInfo = ReactiveSwiftDamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C5C0A465C080801C74FA176 /* Pods-ReactiveSwiftDamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftDamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftDamo/Pods-ReactiveSwiftDamo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B69A0CA1E723BEC006D33BD /* ReactiveSwiftDamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSwiftDamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69A0CD1E723BEC006D33BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B69A0CF1E723BEC006D33BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B69A0D21E723BEC006D33BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B69A0D41E723BEC006D33BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B69A0D71E723BEC006D33BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B69A0D91E723BEC006D33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B69A0DE1E723BEC006D33BD /* ReactiveSwiftDamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSwiftDamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69A0E21E723BEC006D33BD /* ReactiveSwiftDamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSwiftDamoTests.swift; sourceTree = "<group>"; };
+		9B69A0E41E723BEC006D33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B69A0E91E723BEC006D33BD /* ReactiveSwiftDamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSwiftDamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69A0ED1E723BEC006D33BD /* ReactiveSwiftDamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSwiftDamoUITests.swift; sourceTree = "<group>"; };
+		9B69A0EF1E723BEC006D33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0C305D638369DEBF1288DC /* Pods_ReactiveSwiftDamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftDamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEC51DD80C512C32391643F /* Pods-ReactiveSwiftDamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftDamo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftDamo/Pods-ReactiveSwiftDamo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B69A0C71E723BEC006D33BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00F96D9C4AA040ECC1C83D /* Pods_ReactiveSwiftDamo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0DB1E723BEC006D33BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0E61E723BEC006D33BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188978C94B5BE19E6CA1415A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0C305D638369DEBF1288DC /* Pods_ReactiveSwiftDamo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B69A0C11E723BEC006D33BD = {
+			isa = PBXGroup;
+			children = (
+				9B69A0CC1E723BEC006D33BD /* ReactiveSwiftDamo */,
+				9B69A0E11E723BEC006D33BD /* ReactiveSwiftDamoTests */,
+				9B69A0EC1E723BEC006D33BD /* ReactiveSwiftDamoUITests */,
+				9B69A0CB1E723BEC006D33BD /* Products */,
+				B2C54D9C876B2AD4C13A1CDF /* Pods */,
+				188978C94B5BE19E6CA1415A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B69A0CB1E723BEC006D33BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B69A0CA1E723BEC006D33BD /* ReactiveSwiftDamo.app */,
+				9B69A0DE1E723BEC006D33BD /* ReactiveSwiftDamoTests.xctest */,
+				9B69A0E91E723BEC006D33BD /* ReactiveSwiftDamoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B69A0CC1E723BEC006D33BD /* ReactiveSwiftDamo */ = {
+			isa = PBXGroup;
+			children = (
+				9B69A0CD1E723BEC006D33BD /* AppDelegate.swift */,
+				9B69A0CF1E723BEC006D33BD /* ViewController.swift */,
+				9B69A0D11E723BEC006D33BD /* Main.storyboard */,
+				9B69A0D41E723BEC006D33BD /* Assets.xcassets */,
+				9B69A0D61E723BEC006D33BD /* LaunchScreen.storyboard */,
+				9B69A0D91E723BEC006D33BD /* Info.plist */,
+			);
+			path = ReactiveSwiftDamo;
+			sourceTree = "<group>";
+		};
+		9B69A0E11E723BEC006D33BD /* ReactiveSwiftDamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B69A0E21E723BEC006D33BD /* ReactiveSwiftDamoTests.swift */,
+				9B69A0E41E723BEC006D33BD /* Info.plist */,
+			);
+			path = ReactiveSwiftDamoTests;
+			sourceTree = "<group>";
+		};
+		9B69A0EC1E723BEC006D33BD /* ReactiveSwiftDamoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B69A0ED1E723BEC006D33BD /* ReactiveSwiftDamoUITests.swift */,
+				9B69A0EF1E723BEC006D33BD /* Info.plist */,
+			);
+			path = ReactiveSwiftDamoUITests;
+			sourceTree = "<group>";
+		};
+		B2C54D9C876B2AD4C13A1CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C0A465C080801C74FA176 /* Pods-ReactiveSwiftDamo.debug.xcconfig */,
+				FDEC51DD80C512C32391643F /* Pods-ReactiveSwiftDamo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B69A0C91E723BEC006D33BD /* ReactiveSwiftDamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69A0F21E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamo" */;
+			buildPhases = (
+				C534E94997963060A237F39B /* [CP] Check Pods Manifest.lock */,
+				9B69A0C61E723BEC006D33BD /* Sources */,
+				9B69A0C71E723BEC006D33BD /* Frameworks */,
+				9B69A0C81E723BEC006D33BD /* Resources */,
+				7A58750AC4A29EE3A447244E /* [CP] Embed Pods Frameworks */,
+				E6CC629C99BB273FB7DF088C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveSwiftDamo;
+			productName = ReactiveSwiftDamo;
+			productReference = 9B69A0CA1E723BEC006D33BD /* ReactiveSwiftDamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B69A0DD1E723BEC006D33BD /* ReactiveSwiftDamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69A0F51E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamoTests" */;
+			buildPhases = (
+				9B69A0DA1E723BEC006D33BD /* Sources */,
+				9B69A0DB1E723BEC006D33BD /* Frameworks */,
+				9B69A0DC1E723BEC006D33BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B69A0E01E723BEC006D33BD /* PBXTargetDependency */,
+			);
+			name = ReactiveSwiftDamoTests;
+			productName = ReactiveSwiftDamoTests;
+			productReference = 9B69A0DE1E723BEC006D33BD /* ReactiveSwiftDamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B69A0E81E723BEC006D33BD /* ReactiveSwiftDamoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69A0F81E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamoUITests" */;
+			buildPhases = (
+				9B69A0E51E723BEC006D33BD /* Sources */,
+				9B69A0E61E723BEC006D33BD /* Frameworks */,
+				9B69A0E71E723BEC006D33BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B69A0EB1E723BEC006D33BD /* PBXTargetDependency */,
+			);
+			name = ReactiveSwiftDamoUITests;
+			productName = ReactiveSwiftDamoUITests;
+			productReference = 9B69A0E91E723BEC006D33BD /* ReactiveSwiftDamoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B69A0C21E723BEC006D33BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王垒";
+				TargetAttributes = {
+					9B69A0C91E723BEC006D33BD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9B69A0DD1E723BEC006D33BD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B69A0C91E723BEC006D33BD;
+					};
+					9B69A0E81E723BEC006D33BD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B69A0C91E723BEC006D33BD;
+					};
+				};
+			};
+			buildConfigurationList = 9B69A0C51E723BEC006D33BD /* Build configuration list for PBXProject "ReactiveSwiftDamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B69A0C11E723BEC006D33BD;
+			productRefGroup = 9B69A0CB1E723BEC006D33BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B69A0C91E723BEC006D33BD /* ReactiveSwiftDamo */,
+				9B69A0DD1E723BEC006D33BD /* ReactiveSwiftDamoTests */,
+				9B69A0E81E723BEC006D33BD /* ReactiveSwiftDamoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B69A0C81E723BEC006D33BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69A0D81E723BEC006D33BD /* LaunchScreen.storyboard in Resources */,
+				9B69A0D51E723BEC006D33BD /* Assets.xcassets in Resources */,
+				9B69A0D31E723BEC006D33BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0DC1E723BEC006D33BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0E71E723BEC006D33BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A58750AC4A29EE3A447244E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftDamo/Pods-ReactiveSwiftDamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C534E94997963060A237F39B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CC629C99BB273FB7DF088C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftDamo/Pods-ReactiveSwiftDamo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B69A0C61E723BEC006D33BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69A0D01E723BEC006D33BD /* ViewController.swift in Sources */,
+				9B69A0CE1E723BEC006D33BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0DA1E723BEC006D33BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69A0E31E723BEC006D33BD /* ReactiveSwiftDamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69A0E51E723BEC006D33BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69A0EE1E723BEC006D33BD /* ReactiveSwiftDamoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B69A0E01E723BEC006D33BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B69A0C91E723BEC006D33BD /* ReactiveSwiftDamo */;
+			targetProxy = 9B69A0DF1E723BEC006D33BD /* PBXContainerItemProxy */;
+		};
+		9B69A0EB1E723BEC006D33BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B69A0C91E723BEC006D33BD /* ReactiveSwiftDamo */;
+			targetProxy = 9B69A0EA1E723BEC006D33BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B69A0D11E723BEC006D33BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B69A0D21E723BEC006D33BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B69A0D61E723BEC006D33BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B69A0D71E723BEC006D33BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B69A0F01E723BEC006D33BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B69A0F11E723BEC006D33BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B69A0F31E723BEC006D33BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5C0A465C080801C74FA176 /* Pods-ReactiveSwiftDamo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactiveSwiftDamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B69A0F41E723BEC006D33BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEC51DD80C512C32391643F /* Pods-ReactiveSwiftDamo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactiveSwiftDamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B69A0F61E723BEC006D33BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactiveSwiftDamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSwiftDamo.app/ReactiveSwiftDamo";
+			};
+			name = Debug;
+		};
+		9B69A0F71E723BEC006D33BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactiveSwiftDamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSwiftDamo.app/ReactiveSwiftDamo";
+			};
+			name = Release;
+		};
+		9B69A0F91E723BEC006D33BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactiveSwiftDamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactiveSwiftDamo;
+			};
+			name = Debug;
+		};
+		9B69A0FA1E723BEC006D33BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactiveSwiftDamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.ReactiveSwiftDamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactiveSwiftDamo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B69A0C51E723BEC006D33BD /* Build configuration list for PBXProject "ReactiveSwiftDamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69A0F01E723BEC006D33BD /* Debug */,
+				9B69A0F11E723BEC006D33BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B69A0F21E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69A0F31E723BEC006D33BD /* Debug */,
+				9B69A0F41E723BEC006D33BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B69A0F51E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69A0F61E723BEC006D33BD /* Debug */,
+				9B69A0F71E723BEC006D33BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B69A0F81E723BEC006D33BD /* Build configuration list for PBXNativeTarget "ReactiveSwiftDamoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69A0F91E723BEC006D33BD /* Debug */,
+				9B69A0FA1E723BEC006D33BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B69A0C21E723BEC006D33BD /* Project object */;
+}
